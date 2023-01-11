@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\TextDetection">
+      <UniqueIdentifier>{076f3ba4-a281-48d4-b0ce-06b4f397ac6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextDetection">
+      <UniqueIdentifier>{0e8ec232-7d00-4322-b4d9-b6fcaa6ef2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KLT">
+      <UniqueIdentifier>{4ac3e3ef-6fec-4793-a50f-729cbfe1b37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KLT">
+      <UniqueIdentifier>{a26e7321-ee5b-4b94-8bdb-325282fa28d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\plate_detection">
+      <UniqueIdentifier>{5fc81785-8412-4169-bd5f-8b7cecbceaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\motion_detection">
+      <UniqueIdentifier>{a59df030-5b41-4a4e-ac9d-b1573f16164d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\motion_detection">
+      <UniqueIdentifier>{44baad86-6cbd-4e27-8528-0b85f7c8c70d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\plate_detection">
+      <UniqueIdentifier>{0311dfa5-4ddf-44da-86e1-edd494ecbcb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\plate_detection\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CUDA">
+      <UniqueIdentifier>{1bce9d3c-61c5-46f4-bb82-e2262fe2fce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CUDA">
+      <UniqueIdentifier>{6b874cd0-b717-47d3-ba88-33e0c227ceab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDetection\TextDetection.cpp">
+      <Filter>Source Files\TextDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="KLT\KLT.cpp">
+      <Filter>Source Files\KLT</Filter>
+    </ClCompile>
+    <ClCompile Include="Plate_Detection\plate_detection.cpp">
+      <Filter>Source Files\plate_detection</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion_Detection\motion_detection.cpp">
+      <Filter>Source Files\motion_detection</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextDetection\TextDetection.h">
+      <Filter>Header Files\TextDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="KLT\KLT.h">
+      <Filter>Header Files\KLT</Filter>
+    </ClInclude>
+    <ClInclude Include="Plate_Detection\plate_detection.h">
+      <Filter>Header Files\plate_detection</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion_Detection\motion_detection.h">
+      <Filter>Header Files\motion_detection</Filter>
+    </ClInclude>
+    <ClInclude Include="CUDA\CUDA_functions.cuh">
+      <Filter>Header Files\CUDA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="CUDA\CUDA_functions.cu">
+      <Filter>Source Files\CUDA</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

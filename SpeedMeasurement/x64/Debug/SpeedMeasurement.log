@@ -1,0 +1,15 @@
+﻿LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+Main.obj : warning LNK4006: "int last" (?last@@3HA) already defined in CUDA_functions.cu.obj; second definition ignored
+Main.obj : warning LNK4006: "struct KLT * KLT_FeatureList" (?KLT_FeatureList@@3PEAUKLT@@EA) already defined in KLT.obj; second definition ignored
+Main.obj : warning LNK4006: "class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > buf" (?buf@@3V?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@A) already defined in CUDA_functions.cu.obj; second definition ignored
+Main.obj : warning LNK4006: "class cv::Mat zplane" (?zplane@@3VMat@cv@@A) already defined in CUDA_functions.cu.obj; second definition ignored
+motion_detection.obj : warning LNK4006: "int last" (?last@@3HA) already defined in CUDA_functions.cu.obj; second definition ignored
+motion_detection.obj : warning LNK4006: "class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > buf" (?buf@@3V?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@A) already defined in CUDA_functions.cu.obj; second definition ignored
+motion_detection.obj : warning LNK4006: "class cv::Mat zplane" (?zplane@@3VMat@cv@@A) already defined in CUDA_functions.cu.obj; second definition ignored
+CUDA_functions.cu.obj : error LNK2019: unresolved external symbol cudaConfigureCall referenced in function "void __cdecl SegmentationGPU(class cv::Mat const &,class cv::Mat &)" (?SegmentationGPU@@YAXAEBVMat@cv@@AEAV12@@Z)
+CUDA_functions.cu.obj : error LNK2019: unresolved external symbol cudaSetupArgument referenced in function "void __cdecl __device_stub__Z19_SegmentationBy_GPUPhS_yii(unsigned char *,unsigned char *,unsigned __int64,int,int)" (?__device_stub__Z19_SegmentationBy_GPUPhS_yii@@YAXPEAE0_KHH@Z)
+CUDA_functions.cu.obj : error LNK2019: unresolved external symbol cudaLaunch referenced in function "enum cudaError __cdecl cudaLaunch<char>(char *)" (??$cudaLaunch@D@@YA?AW4cudaError@@PEAD@Z)
+CUDA_functions.cu.obj : error LNK2019: unresolved external symbol __cudaRegisterFatBinary referenced in function "void __cdecl __nv_cudaEntityRegisterCallback(void * *)" (?__nv_cudaEntityRegisterCallback@@YAXPEAPEAX@Z)
+CUDA_functions.cu.obj : error LNK2019: unresolved external symbol __cudaUnregisterFatBinary referenced in function "void __cdecl __cudaUnregisterBinaryUtil(void)" (?__cudaUnregisterBinaryUtil@@YAXXZ)
+CUDA_functions.cu.obj : error LNK2019: unresolved external symbol __cudaRegisterFunction referenced in function "void __cdecl __nv_cudaEntityRegisterCallback(void * *)" (?__nv_cudaEntityRegisterCallback@@YAXPEAPEAX@Z)
+C:\Users\JOE\Documents\Visual Studio 2017\Projects\SpeedMeasurement\x64\Debug\SpeedMeasurement.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
